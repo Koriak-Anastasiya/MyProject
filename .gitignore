@@ -1,0 +1,24 @@
+# 🛑 Игнорируем системные файлы
+.DS_Store
+Thumbs.db
+
+# 🛠️ Локальные файлы IDE
+.idea/
+.vscode/
+*.suo
+*.user
+*.sln
+*.pyc
+
+# 📄 Лог-файлы
+logs/
+*.log
+
+# 🚀 Компилированные файлы и кеш
+*.class
+*.o
+*.out
+node_modules/
+dist/
+venv/
+__pycache__/
